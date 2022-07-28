@@ -1,0 +1,68 @@
+<header>
+
+    <nav class="nav__header">
+        <div class="container__nav">
+            <div class="pt1__nav">
+                <div class="logo" (click)="exibir()"> </div>
+                <ul class="ul__nav">
+                    <li>Solutions</li>
+                    <li>Products</li>
+                    <li>Platform</li>
+                    <li>Customers</li>
+                    <li>Events</li>
+                    <li>About</li>
+                </ul>
+            </div>
+            <div class="pt2__nav">
+                <button class="button__nav">Get Started</button>
+                <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                <i class="fa-regular fa-user fa-xl"></i>
+            </div>
+        </div>
+
+
+    </nav>
+
+    <div class="main__header">
+        <div class="container__main">
+            <div class="title__header">
+                <h1>The world works with ServiceNow</h1>
+
+                <br>
+                <h2>Our digital experiences can help your organization, so it simply works better.</h2>
+                <br>
+                <br>
+                <button>
+                    <h4>Watch Video</h4>
+                </button>
+
+            </div>
+            <div *ngIf="mostrar" class="capivara"></div>
+        </div>
+
+        <div class="img__header">
+            <div class="img__btns-container">
+                <button class="b1__img">
+                    <h2>Contact</h2>
+                </button><button class="b2__img">
+                    <h2>Demo</h2>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="sec__header">
+        <ul>
+            <li>
+                <h3><i class="fa-solid fa-display fa-2xl"></i> Try Demo</h3>
+            </li>
+            <li>
+                <h3> <i class="fa-solid fa-bell-concierge fa-2xl"></i> Contact Sales</h3>
+            </li>
+            <li>
+                <h3> <i class="fa-solid fa-magnifying-glass-chart fa-2xl"></i> View Customer Stories</h3>
+            </li>
+        </ul>
+    </div>
+
+</header>
